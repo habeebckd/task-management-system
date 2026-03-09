@@ -1,0 +1,46 @@
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\appsettings.Development.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\appsettings.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\task managment.staticwebassets.endpoints.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\task managment.exe
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\task managment.deps.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\task managment.runtimeconfig.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\task managment.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\task managment.pdb
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Microsoft.OpenApi.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\Scalar.AspNetCore.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.csproj.AssemblyReference.cache
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\rpswa.dswa.cache.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.AssemblyInfoInputs.cache
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.AssemblyInfo.cs
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.csproj.CoreCompileInputs.cache
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.sourcelink.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\rjimswa.dswa.cache.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\scopedcss\bundle\task managment.styles.css
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\staticwebassets.build.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\staticwebassets.build.json.cache
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\staticwebassets.development.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\swae.build.ex.cache
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task man.40BDAE9A.Up2Date
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\refint\task managment.dll
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.pdb
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\task managment.genruntimeconfig.cache
+c:\Users\Lenovo\source\repos\NewRepo\TaskManagementSystem\obj\Debug\net10.0\ref\task managment.dll
