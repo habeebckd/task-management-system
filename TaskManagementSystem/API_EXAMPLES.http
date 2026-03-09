@@ -1,0 +1,104 @@
+### Task Management API - Example Requests
+
+### Variables
+@baseUrl = https://localhost:5001
+@adminToken = {{login-admin.response.body.token}}
+@userToken = {{login-user.response.body.token}}
+
+### 1. Login as Admin
+# @name login-admin
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+### 2. Login as Regular User
+# @name login-user
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "user123"
+}
+
+### 3. Create Task (as User)
+POST {{baseUrl}}/api/tasks
+Authorization: Bearer {{userToken}}
+Content-Type: application/json
+
+{
+  "title": "Complete project documentation",
+  "description": "Write comprehensive README and API docs",
+  "dueDate": "2024-12-31T23:59:59Z"
+}
+
+### 4. Create Another Task (as User)
+POST {{baseUrl}}/api/tasks
+Authorization: Bearer {{userToken}}
+Content-Type: application/json
+
+{
+  "title": "Review code changes",
+  "description": "Review pull requests",
+  "dueDate": "2024-03-15T17:00:00Z"
+}
+
+### 5. Get Tasks (as User - sees only own tasks)
+GET {{baseUrl}}/api/tasks
+Authorization: Bearer {{userToken}}
+
+### 6. Get All Tasks (as Admin - sees all tasks)
+GET {{baseUrl}}/api/tasks
+Authorization: Bearer {{adminToken}}
+
+### 7. Update Task (as User - own task)
+PUT {{baseUrl}}/api/tasks/1
+Authorization: Bearer {{userToken}}
+Content-Type: application/json
+
+{
+  "title": "Updated: Complete project documentation",
+  "description": "Write comprehensive README, API docs, and setup guide",
+  "dueDate": "2024-12-31T23:59:59Z"
+}
+
+### 8. Try to Update Another User's Task (should fail with 403)
+PUT {{baseUrl}}/api/tasks/1
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "title": "Trying to update user's task",
+  "description": "This should fail",
+  "dueDate": "2024-12-31T23:59:59Z"
+}
+
+### 9. Mark Task as Completed (as Admin - only admins can do this)
+PATCH {{baseUrl}}/api/tasks/1/complete
+Authorization: Bearer {{adminToken}}
+
+### 10. Try to Mark Task as Completed (as User - should fail with 403)
+PATCH {{baseUrl}}/api/tasks/1/complete
+Authorization: Bearer {{userToken}}
+
+### 11. Create Task without Authentication (should fail with 401)
+POST {{baseUrl}}/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Unauthorized task",
+  "description": "This should fail"
+}
+
+### 12. Invalid Login
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "invalid",
+  "password": "wrong"
+}
